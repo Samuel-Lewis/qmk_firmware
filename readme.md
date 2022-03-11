@@ -15,19 +15,22 @@ https://docs.qmk.fm/#/newbs_getting_started
     4. Flash!
 -   To hard reset:
     1. Unplug
-    2. Hold ESC
+    2. Hold ES
     3. Replug
     4. Release ESC
 
 ### MacroPad
 
--   Keyboard id: ?? TBD
+-   Keyboard id: `winry/winry315` (close enough replica)
 -   Product: https://www.aliexpress.com/item/1005003500083583.html
 -   Downloads (from seller)
     -   [15+3 VIA Json](https://drive.google.com/file/d/1qPYJgaBtuB0B2CQAeiNsY7doYxafG0Cf/view?usp=drivesdk)
     -   [15+3 VIA HEX](https://drive.google.com/file/d/1zxRk0mCiUVKNEzRMfvv8twBE6V9cMRuz/view?usp=drivesdk)
     -   [15+3 QMK Json](https://drive.google.com/file/d/1su68_VTI5sAqxfbNAoO4KMbNmCo4jhOm/view?usp=drivesdk)
 -   [User guide](https://drive.google.com/file/d/1SUOttEv8vljwHwYybOJ1XY1b3R_gl-L2/view?usp=drivesdk) (from seller)
+-   To put into bootloader:
+    -   Bootmagic reset: Hold down the top left key (not the encoder) and plug in the keyboard. This apparently also works with the vendor VIA firmware. Note that the bootmagic key does not change with the board orientation configured using WINRY315_DEFAULT_ORIENTATION — the “top left” key position in the default orientation (encoders on the top side) is always used.
+    -   Physical reset button: Briefly press the button on the back of the PCB
 
 ## Tools
 
