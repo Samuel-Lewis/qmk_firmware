@@ -31,3 +31,8 @@ SRC =	keyboards/wilba_tech/wt_main.c \
 		drivers/led/issi/is31fl3733.c \
 		quantum/color.c \
 		i2c_master.c
+
+
+# Custom build options
+COMBO_ENABLE = no           # https://docs.qmk.fm/#/feature_combo
+TAP_DANCE_ENABLE = no       # https://docs.qmk.fm/#/feature_tap_dance
